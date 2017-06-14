@@ -1,0 +1,355 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2358AD7D1EF18D1D00833ECA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2358AD7C1EF18D1D00833ECA /* AppDelegate.m */; };
+		2358AD801EF18D1D00833ECA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2358AD7F1EF18D1D00833ECA /* ViewController.m */; };
+		2358AD831EF18D1D00833ECA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2358AD811EF18D1D00833ECA /* Main.storyboard */; };
+		2358AD851EF18D1E00833ECA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2358AD841EF18D1E00833ECA /* Assets.xcassets */; };
+		2358AD881EF18D1E00833ECA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2358AD861EF18D1E00833ECA /* LaunchScreen.storyboard */; };
+		2358AD8B1EF18D1E00833ECA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2358AD8A1EF18D1E00833ECA /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2358AD781EF18D1D00833ECA /* CMEncryptTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CMEncryptTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2358AD7B1EF18D1D00833ECA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2358AD7C1EF18D1D00833ECA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2358AD7E1EF18D1D00833ECA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2358AD7F1EF18D1D00833ECA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2358AD821EF18D1D00833ECA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2358AD841EF18D1E00833ECA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2358AD871EF18D1E00833ECA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2358AD891EF18D1E00833ECA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2358AD8A1EF18D1E00833ECA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2358AD921EF18D7800833ECA /* CMEncryptionTools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CMEncryptionTools.m; sourceTree = "<group>"; };
+		2358AD931EF18D7800833ECA /* CMEncryptionTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CMEncryptionTools.h; sourceTree = "<group>"; };
+		2358AD951EF18D7800833ECA /* CMRSACryptor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CMRSACryptor.h; sourceTree = "<group>"; };
+		2358AD961EF18D7800833ECA /* CMRSACryptor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CMRSACryptor.m; sourceTree = "<group>"; };
+		2358AD981EF18D7800833ECA /* NSString+CMHash.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+CMHash.m"; sourceTree = "<group>"; };
+		2358AD991EF18D7800833ECA /* NSString+CMHash.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+CMHash.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2358AD751EF18D1D00833ECA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2358AD6F1EF18D1D00833ECA = {
+			isa = PBXGroup;
+			children = (
+				2358AD7A1EF18D1D00833ECA /* CMEncryptTool */,
+				2358AD791EF18D1D00833ECA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2358AD791EF18D1D00833ECA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2358AD781EF18D1D00833ECA /* CMEncryptTool.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2358AD7A1EF18D1D00833ECA /* CMEncryptTool */ = {
+			isa = PBXGroup;
+			children = (
+				2358AD911EF18D7800833ECA /* Cipher */,
+				2358AD941EF18D7800833ECA /* Cipher-RSA */,
+				2358AD971EF18D7800833ECA /* Security */,
+				2358AD7B1EF18D1D00833ECA /* AppDelegate.h */,
+				2358AD7C1EF18D1D00833ECA /* AppDelegate.m */,
+				2358AD7E1EF18D1D00833ECA /* ViewController.h */,
+				2358AD7F1EF18D1D00833ECA /* ViewController.m */,
+				2358AD811EF18D1D00833ECA /* Main.storyboard */,
+				2358AD841EF18D1E00833ECA /* Assets.xcassets */,
+				2358AD861EF18D1E00833ECA /* LaunchScreen.storyboard */,
+				2358AD891EF18D1E00833ECA /* Info.plist */,
+				2358AD8A1EF18D1E00833ECA /* main.m */,
+			);
+			path = CMEncryptTool;
+			sourceTree = "<group>";
+		};
+		2358AD911EF18D7800833ECA /* Cipher */ = {
+			isa = PBXGroup;
+			children = (
+				2358AD921EF18D7800833ECA /* CMEncryptionTools.m */,
+				2358AD931EF18D7800833ECA /* CMEncryptionTools.h */,
+			);
+			path = Cipher;
+			sourceTree = "<group>";
+		};
+		2358AD941EF18D7800833ECA /* Cipher-RSA */ = {
+			isa = PBXGroup;
+			children = (
+				2358AD951EF18D7800833ECA /* CMRSACryptor.h */,
+				2358AD961EF18D7800833ECA /* CMRSACryptor.m */,
+			);
+			path = "Cipher-RSA";
+			sourceTree = "<group>";
+		};
+		2358AD971EF18D7800833ECA /* Security */ = {
+			isa = PBXGroup;
+			children = (
+				2358AD981EF18D7800833ECA /* NSString+CMHash.m */,
+				2358AD991EF18D7800833ECA /* NSString+CMHash.h */,
+			);
+			path = Security;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2358AD771EF18D1D00833ECA /* CMEncryptTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2358AD8E1EF18D1E00833ECA /* Build configuration list for PBXNativeTarget "CMEncryptTool" */;
+			buildPhases = (
+				2358AD741EF18D1D00833ECA /* Sources */,
+				2358AD751EF18D1D00833ECA /* Frameworks */,
+				2358AD761EF18D1D00833ECA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CMEncryptTool;
+			productName = CMEncryptTool;
+			productReference = 2358AD781EF18D1D00833ECA /* CMEncryptTool.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2358AD701EF18D1D00833ECA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = CrabMan;
+				TargetAttributes = {
+					2358AD771EF18D1D00833ECA = {
+						CreatedOnToolsVersion = 9.0;
+					};
+				};
+			};
+			buildConfigurationList = 2358AD731EF18D1D00833ECA /* Build configuration list for PBXProject "CMEncryptTool" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2358AD6F1EF18D1D00833ECA;
+			productRefGroup = 2358AD791EF18D1D00833ECA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2358AD771EF18D1D00833ECA /* CMEncryptTool */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2358AD761EF18D1D00833ECA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2358AD881EF18D1E00833ECA /* LaunchScreen.storyboard in Resources */,
+				2358AD851EF18D1E00833ECA /* Assets.xcassets in Resources */,
+				2358AD831EF18D1D00833ECA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2358AD741EF18D1D00833ECA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2358AD801EF18D1D00833ECA /* ViewController.m in Sources */,
+				2358AD8B1EF18D1E00833ECA /* main.m in Sources */,
+				2358AD7D1EF18D1D00833ECA /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2358AD811EF18D1D00833ECA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2358AD821EF18D1D00833ECA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2358AD861EF18D1E00833ECA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2358AD871EF18D1E00833ECA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2358AD8C1EF18D1E00833ECA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2358AD8D1EF18D1E00833ECA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2358AD8F1EF18D1E00833ECA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CMEncryptTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CrabMan.CMEncryptTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2358AD901EF18D1E00833ECA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CMEncryptTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CrabMan.CMEncryptTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2358AD731EF18D1D00833ECA /* Build configuration list for PBXProject "CMEncryptTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2358AD8C1EF18D1E00833ECA /* Debug */,
+				2358AD8D1EF18D1E00833ECA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2358AD8E1EF18D1E00833ECA /* Build configuration list for PBXNativeTarget "CMEncryptTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2358AD8F1EF18D1E00833ECA /* Debug */,
+				2358AD901EF18D1E00833ECA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2358AD701EF18D1D00833ECA /* Project object */;
+}
